@@ -24,7 +24,13 @@ Sample Mail:
     I've long recommended that small business owners and others concerned about malware-driven bank account takeovers consider adopting a "Live CD" solution, which is a free and relatively easy way of temporarily converting your Windows PC into a Linux operating system. The trouble with many of these Live CD solutions is that they require a CD player (something many laptops no longer have) -- but more importantly - they don't play well with wireless access. Today's post looks at an alternative that addresses both of these issues. 
     [Wed, 16 Jul 2014 04:00:20 +0000]
 
+    Subject: [reddit][ReverseEngineering] http://www.reddit.com/r/ReverseEngineering
+    Body:
+    Detouring register values in a x86 asm (c++, dll injection):
+    http://www.reddit.com/r/ReverseEngineering/comments/2bfb5w/detouring_register_values_in_a_x86_asm_c_dll/
 
+    Hi everyone, I was wondering if you would mind taking a look at the problem I posted on stackoverflow: http://stackoverflow.com/questions/24896388/get-register-value-by-detouring-specific-address-x86-assembly-on-windows As the title says, I'm trying to detour the register value and put it into my variable in c++. I think the post is well explained, but you can ask if you have any questions! Your community have been helpful in the past so I'm taking a chance here, hope I don't bother anyone with my questions!   submitted by  5tapler   [link] [6 comments]
+    [Tue, 22 Jul 2014 19:50:34 +0000]
 
 Crontab:
 ========
