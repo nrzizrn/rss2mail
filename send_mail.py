@@ -5,7 +5,6 @@
 import sys
 import os
 import re
-import zipfile
 
 from smtplib import SMTP_SSL
 from email.MIMEText import MIMEText
