@@ -21,10 +21,10 @@ Sample Mail:
 
     Wireless Live CD Alternative: ZeusGard: http://krebsonsecurity.com/2014/07/wireless-live-cd-alternative-zeusgard/
 
-    I've long recommended that small business owners and others concerned about malware-driven bank account takeovers consider adopting a "Live CD" solution, which is a free and relatively easy way of temporarily converting your Windows PC into a Linux operating system. The trouble with many of these Live CD solutions is that they require a CD player (something many laptops no longer have) -- but more importantly - they don't play well with wireless access. Today's post looks at an alternative that addresses both of these issues. [Wed, 16 Jul 2014 04:00:20 +0000]
+    I've long recommended that small business owners and others concerned about malware-driven bank account takeovers consider adopting a "Live CD" solution, which is a free and relatively easy way of temporarily converting your Windows PC into a Linux operating system. The trouble with many of these Live CD solutions is that they require a CD player (something many laptops no longer have) -- but more importantly - they don't play well with wireless access. Today's post looks at an alternative that addresses both of these issues. 
+    [Wed, 16 Jul 2014 04:00:20 +0000]
 
 
-    ./send_feed.sh
 
 Crontab:
 ========
@@ -33,7 +33,6 @@ Crontab:
 Usage:
 ======
  - configure 'config.py'
- - configure 'send_mail.py' - 'smtp' and 'from' vars
  - Add rss to feeds.lst
  - Add recipients to mail_to.lst
  - Run send_feed.sh
