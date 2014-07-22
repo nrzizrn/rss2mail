@@ -27,6 +27,7 @@ Crontab:
     00 */3 * * * /bin/bash /path_to/rss2mail/send_feed.sh &> /dev/null
 
 Usage:
+======  
  - configure 'config.py'
  - configure 'send_mail.py' - 'smtp' and 'from' vars
  - Add rss to feeds.lst
@@ -34,6 +35,7 @@ Usage:
  - Run send_feed.sh
 
 Files:
+======
  - send_feed.sh: main controller
  - rss_parser.py: output rss titles, urls and post date (depends: feedparser)
  - send_mail.py: send email with feeds
