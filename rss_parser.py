@@ -68,6 +68,6 @@ def main():
             published = ''
 
         print title + ": " + link + "\n\n" + summary \
-                + " [" + published + "]\n\n\n"
+                + "\n[" + published + "]\n\n\n"
 
 main()
