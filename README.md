@@ -2,7 +2,7 @@ Sample Script:
 ==============
 
     ./rss2mail.sh
-    [+] Feed: http://www.reddit.com/r/ReverseEngineering|[reddit][RE]
+    [+] Feed: http://www.reddit.com/r/ReverseEngineering|[reddit][ReverseEngineering]
         -> Sending feed to: nrz@nullsecurity.net
     [+] Feed: http://krebsonsecurity.com/feed/|[KerbsOnSecurity]
         -> Sending feed to: nrz@nullsecurity.net
