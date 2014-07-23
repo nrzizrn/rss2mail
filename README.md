@@ -46,7 +46,7 @@ Usage:
 Files:
 ======
  - rss2mail.sh: main controller
- - rss_parser.py: output rss titles, urls and post date (depends: feedparser)
+ - rss_parser.py: output rss titles, urls and feed date (depends: feedparser)
  - send_mail.py: send email with feeds
  - mail_to.lst: recipients for mailing
  - config.py: mail config
