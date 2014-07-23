@@ -1,7 +1,7 @@
 Sample Script:
 ==============
 
-    ./send_feed.sh
+    ./rss2mail.sh
     [+] Feed: http://www.reddit.com/r/ReverseEngineering|[reddit][RE]
         -> Sending feed to: nrz@nullsecurity.net
     [+] Feed: http://krebsonsecurity.com/feed/|[KerbsOnSecurity]
@@ -34,18 +34,18 @@ Sample Mail:
 
 Crontab:
 ========
-    00 */3 * * * /bin/bash /path_to/rss2mail/send_feed.sh &> /dev/null
+    00 */3 * * * /bin/bash /path_to/rss2mail/rss2mail.sh &> /dev/null
 
 Usage:
 ======
  - configure 'config.py'
  - Add rss to feeds.lst
  - Add recipients to mail_to.lst
- - Run send_feed.sh
+ - Run rss2mail.sh
 
 Files:
 ======
- - send_feed.sh: main controller
+ - rss2mail.sh: main controller
  - rss_parser.py: output rss titles, urls and post date (depends: feedparser)
  - send_mail.py: send email with feeds
  - mail_to.lst: recipients for mailing
